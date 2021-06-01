@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F3ED65C266686B60079D1EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3ED65B266686B60079D1EA /* AppDelegate.m */; };
+		4F3ED65F266686B60079D1EA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3ED65E266686B60079D1EA /* SceneDelegate.m */; };
+		4F3ED662266686B60079D1EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3ED661266686B60079D1EA /* ViewController.m */; };
+		4F3ED665266686B60079D1EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3ED663266686B60079D1EA /* Main.storyboard */; };
+		4F3ED667266686B70079D1EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F3ED666266686B70079D1EA /* Assets.xcassets */; };
+		4F3ED66A266686B70079D1EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3ED668266686B70079D1EA /* LaunchScreen.storyboard */; };
+		4F3ED66D266686B70079D1EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3ED66C266686B70079D1EA /* main.m */; };
+		4F3ED677266686B70079D1EA /* AutomateLabelWithPythonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3ED676266686B70079D1EA /* AutomateLabelWithPythonTests.m */; };
+		4F3ED682266686B70079D1EA /* AutomateLabelWithPythonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3ED681266686B70079D1EA /* AutomateLabelWithPythonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F3ED673266686B70079D1EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F3ED64F266686B60079D1EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3ED656266686B60079D1EA;
+			remoteInfo = AutomateLabelWithPython;
+		};
+		4F3ED67E266686B70079D1EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F3ED64F266686B60079D1EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F3ED656266686B60079D1EA;
+			remoteInfo = AutomateLabelWithPython;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F3ED657266686B60079D1EA /* AutomateLabelWithPython.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomateLabelWithPython.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3ED65A266686B60079D1EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F3ED65B266686B60079D1EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F3ED65D266686B60079D1EA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4F3ED65E266686B60079D1EA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4F3ED660266686B60079D1EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F3ED661266686B60079D1EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F3ED664266686B60079D1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F3ED666266686B70079D1EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F3ED669266686B70079D1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F3ED66B266686B70079D1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3ED66C266686B70079D1EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F3ED672266686B70079D1EA /* AutomateLabelWithPythonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomateLabelWithPythonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3ED676266686B70079D1EA /* AutomateLabelWithPythonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomateLabelWithPythonTests.m; sourceTree = "<group>"; };
+		4F3ED678266686B70079D1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3ED67D266686B70079D1EA /* AutomateLabelWithPythonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomateLabelWithPythonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3ED681266686B70079D1EA /* AutomateLabelWithPythonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomateLabelWithPythonUITests.m; sourceTree = "<group>"; };
+		4F3ED683266686B70079D1EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F3ED654266686B60079D1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3ED66F266686B70079D1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3ED67A266686B70079D1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F3ED64E266686B60079D1EA = {
+			isa = PBXGroup;
+			children = (
+				4F3ED659266686B60079D1EA /* AutomateLabelWithPython */,
+				4F3ED675266686B70079D1EA /* AutomateLabelWithPythonTests */,
+				4F3ED680266686B70079D1EA /* AutomateLabelWithPythonUITests */,
+				4F3ED658266686B60079D1EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F3ED658266686B60079D1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F3ED657266686B60079D1EA /* AutomateLabelWithPython.app */,
+				4F3ED672266686B70079D1EA /* AutomateLabelWithPythonTests.xctest */,
+				4F3ED67D266686B70079D1EA /* AutomateLabelWithPythonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F3ED659266686B60079D1EA /* AutomateLabelWithPython */ = {
+			isa = PBXGroup;
+			children = (
+				4F3ED65A266686B60079D1EA /* AppDelegate.h */,
+				4F3ED65B266686B60079D1EA /* AppDelegate.m */,
+				4F3ED65D266686B60079D1EA /* SceneDelegate.h */,
+				4F3ED65E266686B60079D1EA /* SceneDelegate.m */,
+				4F3ED660266686B60079D1EA /* ViewController.h */,
+				4F3ED661266686B60079D1EA /* ViewController.m */,
+				4F3ED663266686B60079D1EA /* Main.storyboard */,
+				4F3ED666266686B70079D1EA /* Assets.xcassets */,
+				4F3ED668266686B70079D1EA /* LaunchScreen.storyboard */,
+				4F3ED66B266686B70079D1EA /* Info.plist */,
+				4F3ED66C266686B70079D1EA /* main.m */,
+			);
+			path = AutomateLabelWithPython;
+			sourceTree = "<group>";
+		};
+		4F3ED675266686B70079D1EA /* AutomateLabelWithPythonTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F3ED676266686B70079D1EA /* AutomateLabelWithPythonTests.m */,
+				4F3ED678266686B70079D1EA /* Info.plist */,
+			);
+			path = AutomateLabelWithPythonTests;
+			sourceTree = "<group>";
+		};
+		4F3ED680266686B70079D1EA /* AutomateLabelWithPythonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F3ED681266686B70079D1EA /* AutomateLabelWithPythonUITests.m */,
+				4F3ED683266686B70079D1EA /* Info.plist */,
+			);
+			path = AutomateLabelWithPythonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F3ED656266686B60079D1EA /* AutomateLabelWithPython */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3ED686266686B70079D1EA /* Build configuration list for PBXNativeTarget "AutomateLabelWithPython" */;
+			buildPhases = (
+				4F3ED653266686B60079D1EA /* Sources */,
+				4F3ED654266686B60079D1EA /* Frameworks */,
+				4F3ED655266686B60079D1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutomateLabelWithPython;
+			productName = AutomateLabelWithPython;
+			productReference = 4F3ED657266686B60079D1EA /* AutomateLabelWithPython.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F3ED671266686B70079D1EA /* AutomateLabelWithPythonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3ED689266686B70079D1EA /* Build configuration list for PBXNativeTarget "AutomateLabelWithPythonTests" */;
+			buildPhases = (
+				4F3ED66E266686B70079D1EA /* Sources */,
+				4F3ED66F266686B70079D1EA /* Frameworks */,
+				4F3ED670266686B70079D1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F3ED674266686B70079D1EA /* PBXTargetDependency */,
+			);
+			name = AutomateLabelWithPythonTests;
+			productName = AutomateLabelWithPythonTests;
+			productReference = 4F3ED672266686B70079D1EA /* AutomateLabelWithPythonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F3ED67C266686B70079D1EA /* AutomateLabelWithPythonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3ED68C266686B70079D1EA /* Build configuration list for PBXNativeTarget "AutomateLabelWithPythonUITests" */;
+			buildPhases = (
+				4F3ED679266686B70079D1EA /* Sources */,
+				4F3ED67A266686B70079D1EA /* Frameworks */,
+				4F3ED67B266686B70079D1EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F3ED67F266686B70079D1EA /* PBXTargetDependency */,
+			);
+			name = AutomateLabelWithPythonUITests;
+			productName = AutomateLabelWithPythonUITests;
+			productReference = 4F3ED67D266686B70079D1EA /* AutomateLabelWithPythonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F3ED64F266686B60079D1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4F3ED656266686B60079D1EA = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4F3ED671266686B70079D1EA = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4F3ED656266686B60079D1EA;
+					};
+					4F3ED67C266686B70079D1EA = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4F3ED656266686B60079D1EA;
+					};
+				};
+			};
+			buildConfigurationList = 4F3ED652266686B60079D1EA /* Build configuration list for PBXProject "AutomateLabelWithPython" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F3ED64E266686B60079D1EA;
+			productRefGroup = 4F3ED658266686B60079D1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F3ED656266686B60079D1EA /* AutomateLabelWithPython */,
+				4F3ED671266686B70079D1EA /* AutomateLabelWithPythonTests */,
+				4F3ED67C266686B70079D1EA /* AutomateLabelWithPythonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F3ED655266686B60079D1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3ED66A266686B70079D1EA /* LaunchScreen.storyboard in Resources */,
+				4F3ED667266686B70079D1EA /* Assets.xcassets in Resources */,
+				4F3ED665266686B60079D1EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3ED670266686B70079D1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3ED67B266686B70079D1EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F3ED653266686B60079D1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3ED662266686B60079D1EA /* ViewController.m in Sources */,
+				4F3ED65C266686B60079D1EA /* AppDelegate.m in Sources */,
+				4F3ED66D266686B70079D1EA /* main.m in Sources */,
+				4F3ED65F266686B60079D1EA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3ED66E266686B70079D1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3ED677266686B70079D1EA /* AutomateLabelWithPythonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F3ED679266686B70079D1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3ED682266686B70079D1EA /* AutomateLabelWithPythonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F3ED674266686B70079D1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F3ED656266686B60079D1EA /* AutomateLabelWithPython */;
+			targetProxy = 4F3ED673266686B70079D1EA /* PBXContainerItemProxy */;
+		};
+		4F3ED67F266686B70079D1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F3ED656266686B60079D1EA /* AutomateLabelWithPython */;
+			targetProxy = 4F3ED67E266686B70079D1EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F3ED663266686B60079D1EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F3ED664266686B60079D1EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F3ED668266686B70079D1EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F3ED669266686B70079D1EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F3ED684266686B70079D1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F3ED685266686B70079D1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F3ED687266686B70079D1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutomateLabelWithPython/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.AutomateLabelWithPython;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F3ED688266686B70079D1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutomateLabelWithPython/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.AutomateLabelWithPython;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F3ED68A266686B70079D1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutomateLabelWithPythonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.AutomateLabelWithPythonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutomateLabelWithPython.app/AutomateLabelWithPython";
+			};
+			name = Debug;
+		};
+		4F3ED68B266686B70079D1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutomateLabelWithPythonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.AutomateLabelWithPythonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutomateLabelWithPython.app/AutomateLabelWithPython";
+			};
+			name = Release;
+		};
+		4F3ED68D266686B70079D1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutomateLabelWithPythonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.AutomateLabelWithPythonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutomateLabelWithPython;
+			};
+			name = Debug;
+		};
+		4F3ED68E266686B70079D1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AutomateLabelWithPythonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.AutomateLabelWithPythonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutomateLabelWithPython;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3ED652266686B60079D1EA /* Build configuration list for PBXProject "AutomateLabelWithPython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3ED684266686B70079D1EA /* Debug */,
+				4F3ED685266686B70079D1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3ED686266686B70079D1EA /* Build configuration list for PBXNativeTarget "AutomateLabelWithPython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3ED687266686B70079D1EA /* Debug */,
+				4F3ED688266686B70079D1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3ED689266686B70079D1EA /* Build configuration list for PBXNativeTarget "AutomateLabelWithPythonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3ED68A266686B70079D1EA /* Debug */,
+				4F3ED68B266686B70079D1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3ED68C266686B70079D1EA /* Build configuration list for PBXNativeTarget "AutomateLabelWithPythonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3ED68D266686B70079D1EA /* Debug */,
+				4F3ED68E266686B70079D1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F3ED64F266686B60079D1EA /* Project object */;
+}
