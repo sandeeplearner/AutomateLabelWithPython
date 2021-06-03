@@ -15,6 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog("Adding some more garbage");
     // Do any additional setup after loading the view.
 }
 
